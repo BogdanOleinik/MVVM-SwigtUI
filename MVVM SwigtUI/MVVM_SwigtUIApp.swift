@@ -11,7 +11,7 @@ import SwiftUI
 struct MVVM_SwigtUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CourceListView()
         }
     }
 }

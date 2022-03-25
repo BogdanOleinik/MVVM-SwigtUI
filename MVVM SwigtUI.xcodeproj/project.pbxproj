@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		9C31CDFC27EC8136008E360B /* MVVM_SwigtUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31CDFB27EC8136008E360B /* MVVM_SwigtUIApp.swift */; };
-		9C31CDFE27EC8136008E360B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31CDFD27EC8136008E360B /* ContentView.swift */; };
+		9C31CDFE27EC8136008E360B /* CourceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31CDFD27EC8136008E360B /* CourceListView.swift */; };
 		9C31CE0027EC8138008E360B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C31CDFF27EC8138008E360B /* Assets.xcassets */; };
 		9C31CE0327EC8138008E360B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C31CE0227EC8138008E360B /* Preview Assets.xcassets */; };
+		9C31CE0A27EC8183008E360B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31CE0927EC8183008E360B /* NetworkManager.swift */; };
+		9C31CE0C27EC832B008E360B /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31CE0B27EC832B008E360B /* Course.swift */; };
+		9C31CE0E27EC8530008E360B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31CE0D27EC8530008E360B /* DataManager.swift */; };
+		9C31CE1427EC8AB8008E360B /* CourseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31CE1327EC8AB8008E360B /* CourseListViewModel.swift */; };
+		9C31CE1627ECAB70008E360B /* CourseDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31CE1527ECAB70008E360B /* CourseDetailsView.swift */; };
+		9C31CE1827ECAB85008E360B /* CourseDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31CE1727ECAB85008E360B /* CourseDetailsViewModel.swift */; };
+		9C31CE1D27ECB1DB008E360B /* CourseImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31CE1C27ECB1DB008E360B /* CourseImage.swift */; };
+		9C31CE2327EDAD65008E360B /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31CE2227EDAD65008E360B /* RowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C31CDF827EC8136008E360B /* MVVM SwigtUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM SwigtUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C31CDFB27EC8136008E360B /* MVVM_SwigtUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_SwigtUIApp.swift; sourceTree = "<group>"; };
-		9C31CDFD27EC8136008E360B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C31CDFD27EC8136008E360B /* CourceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourceListView.swift; sourceTree = "<group>"; };
 		9C31CDFF27EC8138008E360B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C31CE0227EC8138008E360B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C31CE0927EC8183008E360B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9C31CE0B27EC832B008E360B /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		9C31CE0D27EC8530008E360B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		9C31CE1327EC8AB8008E360B /* CourseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListViewModel.swift; sourceTree = "<group>"; };
+		9C31CE1527ECAB70008E360B /* CourseDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsView.swift; sourceTree = "<group>"; };
+		9C31CE1727ECAB85008E360B /* CourseDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsViewModel.swift; sourceTree = "<group>"; };
+		9C31CE1C27ECB1DB008E360B /* CourseImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseImage.swift; sourceTree = "<group>"; };
+		9C31CE2227EDAD65008E360B /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				9C31CDFB27EC8136008E360B /* MVVM_SwigtUIApp.swift */,
-				9C31CDFD27EC8136008E360B /* ContentView.swift */,
+				9C31CE1227EC89BF008E360B /* CourseList */,
+				9C31CE0B27EC832B008E360B /* Course.swift */,
+				9C31CE1927ECAB8C008E360B /* CourseDetails */,
 				9C31CDFF27EC8138008E360B /* Assets.xcassets */,
+				9C31CE1127EC877A008E360B /* Services */,
 				9C31CE0127EC8138008E360B /* Preview Content */,
 			);
 			path = "MVVM SwigtUI";
@@ -65,6 +84,35 @@
 				9C31CE0227EC8138008E360B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C31CE1127EC877A008E360B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9C31CE0927EC8183008E360B /* NetworkManager.swift */,
+				9C31CE0D27EC8530008E360B /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9C31CE1227EC89BF008E360B /* CourseList */ = {
+			isa = PBXGroup;
+			children = (
+				9C31CDFD27EC8136008E360B /* CourceListView.swift */,
+				9C31CE1327EC8AB8008E360B /* CourseListViewModel.swift */,
+				9C31CE2227EDAD65008E360B /* RowView.swift */,
+			);
+			path = CourseList;
+			sourceTree = "<group>";
+		};
+		9C31CE1927ECAB8C008E360B /* CourseDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9C31CE1527ECAB70008E360B /* CourseDetailsView.swift */,
+				9C31CE1727ECAB85008E360B /* CourseDetailsViewModel.swift */,
+				9C31CE1C27ECB1DB008E360B /* CourseImage.swift */,
+			);
+			path = CourseDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C31CDFE27EC8136008E360B /* ContentView.swift in Sources */,
+				9C31CE0A27EC8183008E360B /* NetworkManager.swift in Sources */,
+				9C31CE2327EDAD65008E360B /* RowView.swift in Sources */,
+				9C31CE0E27EC8530008E360B /* DataManager.swift in Sources */,
+				9C31CE1D27ECB1DB008E360B /* CourseImage.swift in Sources */,
+				9C31CE1827ECAB85008E360B /* CourseDetailsViewModel.swift in Sources */,
+				9C31CE1427EC8AB8008E360B /* CourseListViewModel.swift in Sources */,
+				9C31CDFE27EC8136008E360B /* CourceListView.swift in Sources */,
+				9C31CE1627ECAB70008E360B /* CourseDetailsView.swift in Sources */,
+				9C31CE0C27EC832B008E360B /* Course.swift in Sources */,
 				9C31CDFC27EC8136008E360B /* MVVM_SwigtUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
