@@ -52,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				9C31CDFA27EC8136008E360B /* MVVM SwigtUI */,
+				9C31CDFF27EC8138008E360B /* Assets.xcassets */,
 				9C31CDF927EC8136008E360B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,10 +70,9 @@
 			children = (
 				9C31CDFB27EC8136008E360B /* MVVM_SwigtUIApp.swift */,
 				9C31CE1227EC89BF008E360B /* CourseList */,
-				9C31CE0B27EC832B008E360B /* Course.swift */,
 				9C31CE1927ECAB8C008E360B /* CourseDetails */,
-				9C31CDFF27EC8138008E360B /* Assets.xcassets */,
 				9C31CE1127EC877A008E360B /* Services */,
+				9C31CE2427EDB9D9008E360B /* Models */,
 				9C31CE0127EC8138008E360B /* Preview Content */,
 			);
 			path = "MVVM SwigtUI";
@@ -113,6 +113,14 @@
 				9C31CE1C27ECB1DB008E360B /* CourseImage.swift */,
 			);
 			path = CourseDetails;
+			sourceTree = "<group>";
+		};
+		9C31CE2427EDB9D9008E360B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C31CE0B27EC832B008E360B /* Course.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
