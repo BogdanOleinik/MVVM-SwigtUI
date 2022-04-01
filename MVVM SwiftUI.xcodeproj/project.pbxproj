@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C31CDF827EC8136008E360B /* MVVM SwigtUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM SwigtUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C31CDF827EC8136008E360B /* MVVM SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C31CDFB27EC8136008E360B /* MVVM_SwigtUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_SwigtUIApp.swift; sourceTree = "<group>"; };
 		9C31CDFD27EC8136008E360B /* CourceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourceListView.swift; sourceTree = "<group>"; };
 		9C31CDFF27EC8138008E360B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		9C31CDF927EC8136008E360B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C31CDF827EC8136008E360B /* MVVM SwigtUI.app */,
+				9C31CDF827EC8136008E360B /* MVVM SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C31CDF727EC8136008E360B /* MVVM SwigtUI */ = {
+		9C31CDF727EC8136008E360B /* MVVM SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C31CE0627EC8138008E360B /* Build configuration list for PBXNativeTarget "MVVM SwigtUI" */;
+			buildConfigurationList = 9C31CE0627EC8138008E360B /* Build configuration list for PBXNativeTarget "MVVM SwiftUI" */;
 			buildPhases = (
 				9C31CDF427EC8136008E360B /* Sources */,
 				9C31CDF527EC8136008E360B /* Frameworks */,
@@ -138,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = "MVVM SwigtUI";
+			name = "MVVM SwiftUI";
 			productName = "MVVM SwigtUI";
-			productReference = 9C31CDF827EC8136008E360B /* MVVM SwigtUI.app */;
+			productReference = 9C31CDF827EC8136008E360B /* MVVM SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C31CDF327EC8136008E360B /* Build configuration list for PBXProject "MVVM SwigtUI" */;
+			buildConfigurationList = 9C31CDF327EC8136008E360B /* Build configuration list for PBXProject "MVVM SwiftUI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -171,7 +171,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C31CDF727EC8136008E360B /* MVVM SwigtUI */,
+				9C31CDF727EC8136008E360B /* MVVM SwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -384,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C31CDF327EC8136008E360B /* Build configuration list for PBXProject "MVVM SwigtUI" */ = {
+		9C31CDF327EC8136008E360B /* Build configuration list for PBXProject "MVVM SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C31CE0427EC8138008E360B /* Debug */,
@@ -393,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C31CE0627EC8138008E360B /* Build configuration list for PBXNativeTarget "MVVM SwigtUI" */ = {
+		9C31CE0627EC8138008E360B /* Build configuration list for PBXNativeTarget "MVVM SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C31CE0727EC8138008E360B /* Debug */,
